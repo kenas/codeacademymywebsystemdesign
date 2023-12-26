@@ -1,0 +1,119 @@
+div.buttons button {
+    background-color: var(--purple);
+    padding: 7px;
+    margin: 13px;
+}
+
+div.use-example {
+    grid-column: 2/3;
+    width: 100%;
+    padding: 23px;
+    box-sizing: border-box;
+    font-size: 1.1rem;
+}
+
+pre code {
+    font-family: "Lucida Console", Courier, monospace;
+    font-size: 1.1rem;
+}
+
+
+header h1 {
+    margin: 4rem 0;
+}
+
+/* general setting for each button */
+.button {
+    font-size: 1.2rem;
+    padding: 13px;
+    width: 200px;
+    height: 60px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    color: #ffffff;
+}
+
+.buttons .example-button1 {
+    background-color: #5b9aa0;
+    color: #ffffff;
+}
+
+.buttons .example-button1:hover {
+    background-color: #83dce4;
+}
+
+.buttons .example-button2 {
+    background-color: #d6d4e0;
+}
+
+.buttons .example-button2:hover {
+    background-color: #eeecf9;
+    color: #d6d4e0;
+    cursor: not-allowed;
+}
+
+.buttons .example-button3 {
+    background-color: #b8a9c9;
+}
+
+.buttons .example-button3:hover {
+    background-color: #e3d2f6;
+    border: 1px solid #b8a9c9;
+}
+
+.buttons .example-button4 {
+    background-color: #622569;
+    color: #ffffff;
+}
+
+.buttons .example-button4:hover {
+    background-color: #aa3fb6;
+    color: #ffffff;
+}
+
+.buttons .example-button5 {
+    background-color: #eeac99;
+}
+
+.buttons .example-button5:hover {
+    background-color: #d23b12;
+}
+
+.buttons .example-button6 {
+    background-color: #e06377;
+}
+
+.buttons .example-button6:hover {
+    background-color: #dc8392;
+}
+
+.buttons .example-button7 {
+    background-color: #c83349;
+
+}
+
+.buttons .example-button7:hover {
+    background-color: #f07e8f;
+    border: 1px solid #c83349;
+}
+
+.buttons .example-button1:active {
+    transform: translateY(7px);
+}
+
+.buttons .example-button2:active {
+    transform: translateX(-7px);
+}
+
+@media (max-width: 1525px) {
+
+    .container-grid {
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+
+    div.use-example {
+        grid-column: 1/2;
+    }
+}

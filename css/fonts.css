@@ -1,0 +1,178 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,500;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@0,400;0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap');
+
+div.fonts {
+    display: inline-block;
+}
+
+.container-grid-fonts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+div.font {
+    display: inline-block;
+    width: 100%;
+    padding: 40px 0px 40px 0px;
+    font-size: 1.2rem;
+    border-bottom: 2px solid var(--light-gray);
+}
+
+div.font:last-child {
+    border-bottom: none;
+}
+
+div.font h3 {
+    place-self: center;
+    font-size: 3rem;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    opacity: 0.7;
+}
+
+div.font p {
+    padding: 10px 0;
+    grid-column: 2/3;
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+.roboto {
+    font-family: 'Roboto', serif;
+}
+
+.roboto-regular {
+    font-weight: 100;
+}
+
+.roboto-italic {
+    font-style: italic;
+    font-weight: 100;
+}
+
+.roboto-bold {
+    font-weight: 300;
+}
+
+
+.playfair {
+    font-family: 'Playfair Display', serif;
+}
+
+.playfair-regular {
+    font-weight: 400;
+}
+
+.playfair-italic {
+    font-style: italic;
+    font-weight: 400;
+}
+
+.playfair-bold {
+    font-weight: 500;
+}
+
+.chakra {
+    font-family: 'Chakra Petch', serif;
+    letter-spacing: 2px;
+}
+
+.chakra-regular {
+    font-weight: 300;
+}
+
+.chakra-italic {
+    font-style: italic;
+    font-weight: 300;
+}
+
+.chakra-bold {
+font-weight: 500;
+}
+
+.brygada {
+    font-family: 'Brygada 1918', serif;
+}
+
+.brygada-regular {
+    font-weight: 400;
+}
+
+.brygada-italic {
+    font-weight: 400;
+    font-style: italic;
+}
+
+.brygada-bold {
+    font-weight: 500;
+}
+
+.bona-nova {
+    font-family: 'Bona Nova', serif;
+}
+
+.bona-nova-regular {
+    font-weight: 400;
+}
+
+.bona-nova-italic {
+    font-weight: 400;
+    font-style: italic;
+}
+
+.bona-nova-bold {
+    font-weight: 700;
+}
+
+.barlow {
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.barlow-regular {
+    font-weight: 400;
+}
+
+.barlow-italic {
+    font-weight: 400;
+    font-style: italic;
+}
+
+.barlow-bold {
+    font-weight: 500;
+}
+
+.pt-serif {
+    font-family: 'PT Serif', serif;
+}
+
+.pt-serif-regular {
+    font-weight: 400;
+}
+
+.pt-serif-italic {
+    font-weight: 400;
+    font-style: italic;
+}
+
+.pt-serif-bold {
+    font-weight: 700;
+}
+
+@media (max-width: 996px) {
+
+    .container-grid-fonts {
+        grid-template-columns: 1fr;
+    }
+
+    div.font h3 {
+        grid-column: 2/3;
+        grid-row: 1/1;
+        padding: 2rem 0;
+    }
+}

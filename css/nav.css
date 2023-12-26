@@ -1,0 +1,35 @@
+nav {
+    background-color: var(--purple);
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav span {
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+ul {
+    display: flex;
+}
+
+nav ul li {
+    padding: 25px;
+    list-style: none;
+    
+}
+
+li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 20px;
+}
+li a:hover {
+    color: #ffffff;
+    border-bottom: 8px solid #ffffff;
+    /* border-radius: 13px; */
+    transition: border-bottom .2s ease-in-out;
+}

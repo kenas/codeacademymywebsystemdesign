@@ -1,0 +1,44 @@
+div.colors {
+    display: inline-block;
+}
+
+/* general rule for each color */
+.color {
+    font-size: 1.2rem;
+    padding: 27px;
+    width: 200px;
+    border: none;
+    border-radius: 3px;
+    color: #ffffff;
+    text-align: center;
+    display: inline-block;
+    margin: 12px;
+}
+
+.colors .example-color1 {
+    background-color: #c83349;
+}
+
+.colors .example-color2 {
+    background-color: #e06377;
+}
+
+.colors .example-color3 {
+    background-color: #eeac99;
+}
+
+.colors .example-color4 {
+    background-color: #622569;
+}
+
+.colors .example-color5 {
+    background-color: #b8a9c9;
+}
+
+.colors .example-color6 {
+    background-color: #d6d4e0;
+}
+
+.colors .example-color7 {
+    background-color: #5b9aa0;
+}

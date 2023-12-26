@@ -1,0 +1,26 @@
+.container {
+    margin: 0 auto;
+    width: 90%;
+}
+
+section {
+    margin-top: 3rem;
+}
+
+section h2 {
+    background-color: var(--light-purple);
+    color: #ffffff;
+    padding: 17px;
+    border-radius: 3px;
+}
+.container-grid {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    justify-items: center;
+}
+
+footer p{
+    background-color: var(--light-gray);
+    text-align: center;
+    padding: 4rem;
+}

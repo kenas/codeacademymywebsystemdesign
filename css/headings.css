@@ -1,0 +1,70 @@
+div.headings {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    margin: 4.5rem 0;
+}
+
+div.heading {
+    grid-column: 1/2;
+    text-align: center;
+    opacity: 0.7;
+    padding: 4rem 0;
+}
+
+div.description {
+    grid-column: 2/3;
+    align-self: center;
+    font-size: 1.2rem;
+    font-family: 'Roboto', serif;
+}
+
+div.description p {
+    padding: 2px;
+}
+
+div.heading:nth-child(3) h2 {
+    color: black; 
+    padding: 0;
+    background-color: transparent;
+}
+
+div.heading h1 {
+    font-size: 6rem; /* Base size for h1 */
+}
+
+div.heading h2 {
+    font-size: 5rem; /* Increase h2 by 2rem */
+}
+
+div.heading h3 {
+    font-size: 4rem; /* Increase h3 by 4rem */
+}
+
+div.heading h4 {
+    font-size: 3rem; /* Increase h4 by 6rem */
+}
+
+div.heading h5 {
+    font-size: 2rem; /* Increase h5 by 8rem */
+}
+
+div.heading h6 {
+    font-size: 1.5rem; /* Increase h6 by 10rem */
+}
+
+@media (max-width: 996px) {
+
+    div.headings {
+        grid-template-columns: 1fr; /* Single column layout */
+    }
+
+    div.heading,
+    div.description {
+        grid-column: 1; /* Start both elements in the same column */
+    }
+
+    div.description {
+        text-align: center;
+    }
+}

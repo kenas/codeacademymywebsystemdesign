@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+
+:root {
+    --light-gray: #FBF9FF;
+    --gray: #A2A3BB;
+    --purple: #9395D3;
+    --light-purple: #B3B7EE;
+}
+
+div.buttons, 
+div.colors {
+    margin: 5rem 0;
+}
